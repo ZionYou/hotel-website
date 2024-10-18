@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    <link rel="icon" href="<%= BASE_URL %>hotel3.ico">
+    <title>健行科大附設大飯店</title>
+    <style>
+      body {
+        background-image: url('<%= BASE_URL %>src/assets/img/bannerimg.png');
+        background-size: cover; /* 确保背景图像覆盖整个页面 */
+        background-position: center; /* 将背景图像置于中央 */
+        background-repeat: no-repeat; /* 防止背景图像重复 */
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFn8YCakUPzy85aohPCJ9wBl65DwmFm-w">
+    </script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // 設置 JavaScript 編譯的目標 ECMAScript 版本。
+    // 這裡設置為 "es5"，即將代碼編譯為 ECMAScript 5 標準。
+    "target": "es5",
+    
+    // 設置模塊系統的類型。
+    // "esnext" 指的是使用最新的 ECMAScript 模塊系統（ES Modules），即 import/export。
+    "module": "esnext",
+    
+    // 設定基礎路徑，所有相對路徑都從此路徑開始解析。
+    // 這裡設置為 "./"，表示從項目根目錄開始。
+    "baseUrl": "./",
+    
+    // 設置模塊解析策略。
+    // "node" 指的是使用 Node.js 風格的模塊解析方式，這也是最常見的解析策略。
+    "moduleResolution": "node",
+    
+    // 配置模塊路徑映射，用於簡化和別名路徑導入。
+    // "@" 代表 src 目錄，允許使用 "@/someModule" 來引用 "src/someModule"。
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    
+    // 指定編譯時需要包含的庫。
+    // "esnext" 包含最新的 ECMAScript 特性。
+    // "dom" 提供了對 DOM API 的支持，使得代碼中可以使用瀏覽器內建的 DOM 方法。
+    // "dom.iterable" 支持迭代 DOM 集合的功能（如 NodeList）。
+    // "scripthost" 支持 Windows Script Host (WSH) 的腳本環境。
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}

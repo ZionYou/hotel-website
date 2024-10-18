@@ -1,0 +1,61 @@
+{
+  "name": "daodejing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "^3.8.3",
+    "firebase": "^10.13.1",
+    "jwt-decode": "^4.0.0",
+    "normalize.css": "^8.0.1",
+    "oidc-client-ts": "^3.0.1",
+    "openai": "^4.57.0",
+    "pinia": "^2.2.2",
+    "swiper": "^11.1.14",
+    "vue": "^3.5.8",
+    "vue-router": "^4.4.5",
+    "vue3-google-login": "^2.0.33"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.25.1",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "gh-pages": "^6.1.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
