@@ -8,7 +8,6 @@
 ## Outline - 目錄
 - Features - 專案功能
 - Enviroment - 環境建置與需求
-- Installing-專案安裝流程
 - Contributor - 開發人員與工作分配
 
 ## Features - 專案功能
@@ -58,34 +57,9 @@
 - ESLint Plugin Vue 9.28.0
 - gh-pages 6.1.1
 
-## Installing - 專案安裝流程
-
-1. 複製專案
-   ```
-   git clone https://github.com/ZionYou/hotel-website.git
-   ```
-
-2. 進入專案資料夾
-   ```
-   cd hotel-website
-   ```
-
-3. 安裝套件
-   ```
-   npm install
-   ```
-
-4. 啟動開發伺服器
-   ```
-   npm run serve
-   ```
-
-5. 開啟瀏覽器，輸入 `http://localhost:8080` 即可看到網站
-
 ## Contributor - 開發人員與工作分配
-
-* junior155235 - PM
-* oews - CI/CD
-* ZionYou - 前端layout 、 components設計
-* nanglekimo - 前端layout 、 components設計
+* [junior155235](https://github.com/junior155235) - PM
+* [oews](https://github.com/oewsj) - CI/CD
+* [ZionYou](https://github.com/ZionYou) - 前端layout 、 components設計
+* [nanglekimo](https://github.com/nanglekimo) - 前端layout 、 components設計
 
